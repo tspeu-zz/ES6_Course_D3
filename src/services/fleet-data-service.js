@@ -56,7 +56,7 @@ export class FleetDataService{
 	loadCar(carro){
 //hand error
 		try{
-			let c = new Car(carro.licarense, carro.model, carro.latLong);
+			let c = new Car(carro.license, carro.model, carro.latLong);
 			c.miles = carro.miles;
 			c.make = carro.make;
 			return c; 
@@ -71,7 +71,7 @@ export class FleetDataService{
 
 	loadDron(dron){
 		try{
-			let d = new Drone(dron.lidronense, dron.model, dron.latLong);
+			let d = new Drone(dron.license, dron.model, dron.latLong);
 			d.airTimeHours = dron.airTimeHours;
 			d.base = dron.base;
 			return d;
