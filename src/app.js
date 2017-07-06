@@ -6,8 +6,8 @@ import {fleet} from './fleet-data.js';
  //data service
 import {FleetDataService} from './services/fleet-data-service.js';
 
-//DE librery
-d3.selectAll("p").style("color", "red");
+//D3 librery
+/*d3.selectAll("p").style("color", "red");
 d3.select("body").style("background-color",  function() {
   return "hsl(" + Math.random() * 360 + ",100%,50%)";
 });
@@ -16,8 +16,10 @@ d3.selectAll("p").style("color", function() {
 });
 d3.selectAll("p")
   .data([ 42])
-    .style("font-size", function(d) { return d + "px"; });
+    .style("font-size", function(d) { return d + "px"; });*/
+//
 
+console.log("HOLA");
 let dataService = new FleetDataService();
 dataService.loadData(fleet);
 //console.log(fleet);
