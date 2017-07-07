@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>JM DRONES</title>
@@ -6,10 +7,11 @@
 	<link rel="stylesheet" href="node_modules/material-design-lite/dist/material.grey-yellow.min.css">
 
 	<script src="node_modules/traceur/bin/traceur.js"></script>
-	<script src="node_modules/es6-module-loader/dist/es6-module-loader-dev.js"></script>
-	<!-- <script src="node_modules/systemjs/dist/system.js"></script> -->
+	<!-- <script src="node_modules/es6-module-loader/dist/es6-module-loader-dev.js"></script> -->
+   <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="node_modules/material-design-lite/dist/material.js"></script>
 	<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
-	<script src="node_modules/material-design-lite/dist/material.js"></script>
+
 
 
 
@@ -17,7 +19,7 @@
 </head>
 <body>
 	<script>
-		System.paths['jquery']='./node_modules/jquery/dist/jquery.js';
+          System.paths['jquery'] = './node_modules/jquery/dist/jquery.js';
 		//code.jquery.com/jquery-2.1.4.min.js
 		//SystemJS.config({ paths: { "jquery": './node_modules/jquery/dist/jquery.js' } });
 	/*	SystemJS.config({
@@ -28,6 +30,6 @@
 				})*/
 		System.import('src/app.js');
 	</script>
-	<p>hola </p>
+
 </body>
 </html>
